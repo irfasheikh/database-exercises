@@ -27,6 +27,7 @@ AND gender = 'M';
 
 --all employees whose last name starts OR ends with E
 
-SELECT
+SELECT last_name WHERE last_name LIKE 'E%'
+OR last_name LIKE '%E';
 
 
