@@ -30,4 +30,6 @@ AND gender = 'M';
 SELECT last_name WHERE last_name LIKE 'E%'
 OR last_name LIKE '%E';
 
-
+--all employees with a q but not qu
+select * FROM employees WHERE last_name LIKE '%q%'
+AND last_name NOT LIKE '%qu%';
