@@ -20,6 +20,8 @@ SELECT last_name, COUNT(last_name) FROM employees WHERE last_name LIKE '%q%' AND
 
 -- use count(*) and GROUP BY to find # employees for each gender (Irena, Vidya, Maya)
 
+-- SELECT gender COUNT (gender), gender FROM employees WHERE first_name IN ('irena', 'vidya', 'maya') GROUP BY gender;
+
 SELECT gender, COUNT(gender)
 FROM employees
 WHERE first_name IN ('Irena','Vidya','Maya')
