@@ -10,4 +10,4 @@ FROM employees AS e
 WHERE to_date > CURRENT_DATE;
 
 --Find the name of all departments currently managed by women.
-SELECT
+SELECT dpt.dept_
