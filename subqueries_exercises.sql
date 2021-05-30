@@ -30,7 +30,7 @@ WHERE gender = 'F'
   AND emp_no
 in (SELECT dept_no FROM dept_manager where to_date > current_date); -- this is saying they're currently managers
 
- --another way
+ --another way to complete this exercise
 SELECT first_name, last_name, birth_date
 FROM employees
 WHERE emp_no IN (
