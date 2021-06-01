@@ -47,3 +47,6 @@ WHERE to_date = '9999-01-01'
 --all department names that currently have female managers
 SELECT dept_no
 FROM
+
+--BONUS # 2
+
