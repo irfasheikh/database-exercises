@@ -46,7 +46,13 @@ WHERE to_date = '9999-01-01'
 --BONUS # 1
 --all department names that currently have female managers
 SELECT dept_no
-FROM
+FROMFROM
+
+--BONUS # 2 find the first and last name of the employee with highest salary
+SELECT first_name , last_name
+FROM employees
+WHERE
+
 
 --BONUS # 2
 
