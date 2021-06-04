@@ -7,5 +7,6 @@ OR WHERE last_name LIKE '%E'
 
    SELECT * FROM employees WHERE month(birth_date) =12 and day(birth_date) = 25;
 
+--employees hired in the 90s and born on christmas
 SELECT * FROM employees
 WHERE year(hire_date)
